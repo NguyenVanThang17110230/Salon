@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Staff = () => {
   return (
     <User>
-      <div className="p-5">
-        <h3 className="text-center fw-bolder fs-1 mb-5">Staff</h3>
+      <div className="container">
+        <h3 className="text-center fw-bolder fs-1 my-5">Staff</h3>
         <div className="row">
           <div className="col-4 mb-4">
             <Link to="/detail-staff">
@@ -130,7 +130,7 @@ const Staff = () => {
         </div>
         <div className="w-100 d-flex justify-content-center">
           <div
-            className="mt-5 d-inline px-4 py-2 rounded-pill bg-dark text-uppercase text-white"
+            className="mt-5 d-inline px-5 py-3 rounded-pill bg-dark text-uppercase text-white"
             style={{ cursor: "pointer" }}
           >
             view all work

@@ -17,6 +17,9 @@ import Contact from "components/Contact";
 import Portfolio from "components/Portfolio";
 import Login from "components/Login";
 import Signup from "components/Signup";
+import Dashboard from "components/Admin/Dashboard";
+import AdminStaff from "components/Admin/Staff";
+
 const App = () => {
   return (
     <Router history={history}>
@@ -31,6 +34,8 @@ const App = () => {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/admin/dashboard" element={<Dashboard />} />
+            <Route path="/admin/staff" element={<AdminStaff />} />
           </Routes>
       </div>
     </Router>

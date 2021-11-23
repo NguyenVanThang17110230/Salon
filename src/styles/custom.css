@@ -4,3 +4,7 @@ body{
 .navbar-light .navbar-nav .nav-link.active{
     border-bottom: 2px solid green;
 }
+
+#no-outline:focus{
+    box-shadow: none;
+}

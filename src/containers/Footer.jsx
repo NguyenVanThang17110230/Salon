@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="p-5">
+    <div className="container py-5">
       <div className="row text-secondary">
         <div className="col-5">
           <img src={require("assets/img/logo2.png").default} alt="" />
